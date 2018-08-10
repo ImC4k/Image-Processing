@@ -11,6 +11,6 @@ function g = lpfilter(f, a)
     M(129-a:129+a, 129-a:129+a) = 0;
     G = F.*M;
 %     figure(777), mesh(abs(G)), view(3)
-    g = abs(ifft2(G));
+    g = ifft2(G);
 
 end

@@ -15,6 +15,6 @@ function g = hpfilter(f, a)
     G = F.*M;
 %     figure(778), mesh(abs(G)), view(3)
     
-    g = abs(ifft2(G));
+    g = ifft2(G);
 
 end 
