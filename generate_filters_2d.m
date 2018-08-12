@@ -1,5 +1,6 @@
 function [] = generate_filters_2d(g)
-f = imread(g);
+% f = imread(g);
+f = g;
 w3 = 1/9.*ones(3,3);
 w5 = ones(5,5)/25;
 wG = [1 2 1; 2 4 2; 1 2 1]*1/16;
